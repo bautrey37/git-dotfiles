@@ -1,14 +1,14 @@
 [user]
-	name = Deiwin Sarjas
-	email = deiwin.sarjas@gmail.com
+	name = Brandon Autrey
+	email = brandon.c.autrey@gmail.com
 	signingkey = 22211AD9B0DDA78354030B9EF6FBEC10E55DFC89
 [push]
 	default = current
 [merge]
 	conflictstyle = diff3
 [core]
-	excludesfile = /Users/deiwin/.gitignore_global
-	hooksPath = /Users/deiwin/.git_hooks
+	excludesfile = /Users/brandonautrey/.gitignore_global
+	hooksPath = /Users/brandonautrey/.git_hooks
 [commit]
 	verbose = true
 	gpgSign = true

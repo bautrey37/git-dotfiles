@@ -23,7 +23,7 @@ Currently the following arch packages are used:
 yaourt -S lolcommits
 
 # Clone
-vcsh clone git@github.com:deiwin/git-dotfiles.git git
+vcsh clone git@github.com:brandonautrey/git-dotfiles.git git
 
 # Source the aliases (done automatically by my zsh conf)
 source ~/.config/zshrc.d/git-aliases
