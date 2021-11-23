@@ -1,3 +1,4 @@
+# Deiwin git aliases
 alias gfu="git fixup"
 alias gFu="git fixup -a"
 alias gbm="git branch-merged"
@@ -5,3 +6,32 @@ alias glu='git log-upstream'
 alias gcS='git diff-tree --no-commit-id --stat=$(tput cols) -r -c'
 alias gpr="git show -s --date=short --pretty='format:%h (\"%s\", %ad)'"
 alias gsm='git show -s --format=%B'
+
+# Brandon git aliases
+alias a = 'add -p'
+alias as = 'rebase -i master --autosquash'
+alias asf = !'git commit --fixup @ && git rebase -i master --autosquash'
+alias br = 'branch'
+alias ci = 'commit'
+alias cm = 'commit -m'
+alias cv = 'commit -v'
+alias cf = 'commit --fixup'
+alias co = 'checkout'
+alias cam = 'commit -am'
+alias cleanup = '"!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"'
+alias current = 'rev-parse --abbrev-ref HEAD'
+alias d = 'diff'
+alias dc = 'diff --cached'
+alias lol = 'log --graph --pretty=format:\"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cr)%Creset %C(green)%ce%Creset %s\"'
+alias mycommits = !'git log --author=\"`git config user.name`\"'
+alias pl = 'pull'
+alias psu = !'git push --set-upstream origin git current'
+alias ps = 'push'
+alias pf = 'push -f'
+alias rw = 'commit --amend'
+alias st = 'status -s'
+alias stb = 'status -sb'
+alias unadd = 'reset HEAD --'
+alias unstage = 'reset HEAD --'
+alias uncommit = 'reset --soft HEAD~1'
+alias purge = 'reset HEAD --hard'

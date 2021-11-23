@@ -15,12 +15,13 @@
 I'm using [RichiH/vcsh](https://github.com/RichiH/vcsh) for dotfile management.
 
 Currently the following arch packages are used:
-- [lolcommits](https://aur.archlinux.org/packages/lolcommits/) to take a picture every time I commit
+- [lolcommits](https://github.com/lolcommits/lolcommits) to take a picture every time I commit
 
 ## How to use
 ```
-# Install dependencies
-yaourt -S lolcommits
+# Install lolcommits
+brew install imagemagick
+[sudo] gem install lolcommits
 
 # Clone
 vcsh clone git@github.com:brandonautrey/git-dotfiles.git git

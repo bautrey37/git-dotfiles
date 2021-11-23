@@ -1,7 +1,6 @@
 [user]
 	name = Brandon Autrey
 	email = brandon.c.autrey@gmail.com
-	signingkey = 22211AD9B0DDA78354030B9EF6FBEC10E55DFC89
 [push]
 	default = current
 [merge]
@@ -9,6 +8,11 @@
 [core]
 	excludesfile = /Users/brandonautrey/.gitignore_global
 	hooksPath = /Users/brandonautrey/.git_hooks
+	editor = subl
 [commit]
 	verbose = true
 	gpgSign = true
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
